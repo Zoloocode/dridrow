@@ -1,4 +1,7 @@
 import os
+import sys
+print(sys.executable)
+
 import av
 import threading
 import streamlit as st
@@ -8,10 +11,6 @@ from streamlit_webrtc import VideoHTMLAttributes, webrtc_streamer
 from audio_handling import AudioFrameHandler
 from drowsy_detection import VideoFrameHandler
 from ads import css_string
-
-
-# Define the audio file to use.
-alarm_file_path = os.path.join("audio", "wake_up.wav")
 
 # Streamlit Components
 st.set_page_config(
@@ -23,6 +22,15 @@ st.set_page_config(
         "About": "### Visit www.learnopencv.com for more exciting tutorials!!!",
     },
 )
+
+if st.button("Clear Error Log"):
+    # This will restart the Streamlit app when the button is clicked
+    st.experimental_rerun()
+    
+# Define the audio file to use.
+alarm_file_path = os.path.join("audio", "wake_up.wav")
+
+
 
 
 col1, col2 = st.columns(spec=[6, 2], gap="medium")
