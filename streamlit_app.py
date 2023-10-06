@@ -1,7 +1,4 @@
 import os
-<<<<<<< HEAD
-import sys
-print(sys.executable)
 
 =======
 >>>>>>> origin/main
