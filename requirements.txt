@@ -8,9 +8,6 @@ streamlit==1.13.0
 streamlit_webrtc==0.43.4
 streamlit-nested-layout==0.1.1
 av
-opencv-python
 mesa
 ffmpeg
-libgl1-mesa-glx
 opencv-python-headless
->>>>>>> origin/main
