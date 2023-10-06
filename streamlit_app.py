@@ -1,7 +1,4 @@
 import os
-
-=======
->>>>>>> origin/main
 import av
 import threading
 import streamlit as st
@@ -12,13 +9,9 @@ from audio_handling import AudioFrameHandler
 from drowsy_detection import VideoFrameHandler
 from ads import css_string
 
-<<<<<<< HEAD
-=======
-
 # Define the audio file to use.
 alarm_file_path = os.path.join("audio", "wake_up.wav")
 
->>>>>>> origin/main
 # Streamlit Components
 st.set_page_config(
     page_title="SEREEREI",
@@ -30,18 +23,12 @@ st.set_page_config(
     },
 )
 
-<<<<<<< HEAD
 if st.button("Clear Error Log"):
     # This will restart the Streamlit app when the button is clicked
     st.experimental_rerun()
     
 # Define the audio file to use.
 alarm_file_path = os.path.join("audio", "wake_up.wav")
-
-
-
-=======
->>>>>>> origin/main
 
 col1, col2 = st.columns(spec=[6, 2], gap="medium")
 
