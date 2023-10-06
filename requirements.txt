@@ -10,4 +10,7 @@ streamlit-nested-layout==0.1.1
 av
 opencv-python
 mesa
+<<<<<<< HEAD
 ffmpeg
+=======
+>>>>>>> origin/main
