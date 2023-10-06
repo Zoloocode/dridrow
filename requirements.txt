@@ -11,4 +11,6 @@ av
 opencv-python
 mesa
 ffmpeg
+libgl1-mesa-glx
+opencv-python-headless
 >>>>>>> origin/main
